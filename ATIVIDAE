@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>Travel reservation form</h1> 
+  <p>Full name*: 
+    <br><input type="text" placeholder="FirstName LastName">
+  </p>  
+   <p>
+    Email Address*:
+    <br><input type="email" name="" id="" placeholder="EMAIL_ADDRESS">
+   </p>
+<p> Select Tour Package*:
+    <br> <select name="Package" id="Package">
+        <option value="">Goa</option>
+        <option value="">Andhra</option>
+        <option value="">Haryana</option>
+        <option value="">Assam</option>
+    </select><p>
+    <p>Arrival Date*:
+<br><input type="date" name="" id="">
+    </p>
+<p>Number of persons*:
+    <br><input type="number" placeholder="UNKNOWN_TYPE">
+
+<p>What would you want to avail?*
+<br>Boarding <input type="checkbox" name="" id="">
+<br>Fooding <input type="checkbox" name="" id="">
+<br>Sight Seeing<input type="checkbox" name="" id="">
+<p>Discout Coupon code:
+    <br><input type="text" pattern="[A-Za-z]{6}" placeholder="UNKNOWN_TYPE" class="inputs">
+</p>
+<P>Terms and conditions*
+<br>I agree<input type="radio" name="" id="">
+I disagree<input type="radio" name="" id="">
+</P>
+<p> <input type="submit" value="Complete reservation"></p>
+</body>
+</html>
